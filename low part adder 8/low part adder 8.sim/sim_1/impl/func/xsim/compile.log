@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lolwa/low part adder 8/low part adder 8.sim/sim_1/impl/func/xsim/Low_part_OR_Adder_testbench_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-311] analyzing module Low_part_OR_Adder
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lolwa/low part adder 8/low part adder 8.srcs/sim_1/new/Low_part_adder_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Low_part_OR_Adder_testbench

@@ -1,0 +1,7 @@
+Running: xsim.dir/Low_part_or_adder_test_bench_func_impl/xsimk.exe -simmode gui -wdb Low_part_or_adder_test_bench_func_impl.wdb -simrunnum 0 -socket 53652
+Design successfully loaded
+Design Loading Memory Usage: 7924 KB (Peak: 7924 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8572 KB (Peak: 8572 KB)
+Simulation CPU Usage: 0 ms

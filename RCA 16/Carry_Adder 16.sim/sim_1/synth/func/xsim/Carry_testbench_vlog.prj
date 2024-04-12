@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Carry_testbench_func_synth.v" \
+"../../../../../Carry_Adder 16.srcs/sim_1/new/Carry_Adder_testbench.v" \
+
+# Do not sort compile order
+nosort

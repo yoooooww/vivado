@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1712290712">
+  <File Type="ROUTE-PWR" Name="Error_Tolerant_Adder_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Error_Tolerant_Adder.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Error_Tolerant_Adder_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Error_Tolerant_Adder_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Error_Tolerant_Adder.msk"/>
+  <File Type="ROUTE-CLK" Name="Error_Tolerant_Adder_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Error_Tolerant_Adder.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Error_Tolerant_Adder_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Error_Tolerant_Adder.bit"/>
+  <File Type="BG-DRC" Name="Error_Tolerant_Adder.drc"/>
+  <File Type="BG-BGN" Name="Error_Tolerant_Adder.bgn"/>
+  <File Type="BG-BIN" Name="Error_Tolerant_Adder.bin"/>
+  <File Type="BITSTR-RBT" Name="Error_Tolerant_Adder.rbt"/>
+  <File Type="BITSTR-NKY" Name="Error_Tolerant_Adder.nky"/>
+  <File Type="BITSTR-BMM" Name="Error_Tolerant_Adder_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Error_Tolerant_Adder.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Error_Tolerant_Adder_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Error_Tolerant_Adder.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Error_Tolerant_Adder_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Error_Tolerant_Adder.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="Error_Tolerant_Adder_boot.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="Error_Tolerant_Adder.npi"/>
+  <File Type="OPT-DRC" Name="Error_Tolerant_Adder_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="Error_Tolerant_Adder.rbd"/>
+  <File Type="OPT-HWDEF" Name="Error_Tolerant_Adder.hwdef"/>
+  <File Type="PLACE-IO" Name="Error_Tolerant_Adder_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Error_Tolerant_Adder_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Error_Tolerant_Adder_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Error_Tolerant_Adder_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Error_Tolerant_Adder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Error_Tolerant_Adder_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Error_Tolerant_Adder_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Error_Tolerant_Adder_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Error_Tolerant_Adder_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Error_Tolerant_Adder_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Error_Tolerant_Adder_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Error_Tolerant_Adder_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Error_Tolerant_Adder_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Error_Tolerant_Adder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Error_Tolerant_Adder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Error_Tolerant_Adder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Error_Tolerant_Adder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Error_Tolerant_Adder_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Error_Tolerant_Adder_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Error_Tolerant_Adder_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Error_Tolerant_Adder_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Error_Tolerant_Adder_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Error_Tolerant_Adder_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Error_Tolerant_Adder_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Error_Tolerant_Adder_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Error_Tolerant_Adder_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Error_Tolerant_Adder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Error_Tolerant_Adder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Error_Tolerant_Adder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Error_Tolerant_Adder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Error_Tolerant_Adder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Error_Tolerant_Adder_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Error_Tolerant_Adder_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Error_Tolerant_Adder_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="Error_Tolerant_Adder.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Error_Tolerant_Adder_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Error_Tolerant_Adder.rcfi"/>
+  <File Type="CFI_FILE" Name="Error_Tolerant_Adder.cfi"/>
+  <File Type="RNPI_FILE" Name="Error_Tolerant_Adder.rnpi"/>
+  <File Type="ROUTE-RQS" Name="Error_Tolerant_Adder_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Error_Tolerant_Adder_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Full_Adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/carry_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sum_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Error_Tolerant_Adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Error_Tolerant_Adder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

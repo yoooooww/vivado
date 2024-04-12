@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Error_Tolerant_adder_test_bench_func_impl.v" \
+"../../../../../project_3.srcs/sim_1/new/Error_Tolerant_adder_test_bench.v" \
+
+# Do not sort compile order
+nosort

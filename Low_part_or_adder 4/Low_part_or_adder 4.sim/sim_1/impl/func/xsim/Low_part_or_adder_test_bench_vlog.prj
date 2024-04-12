@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Low_part_or_adder_test_bench_func_impl.v" \
+"../../../../../Low_part_or_adder 4.srcs/sim_1/new/Low_part_or_Adder.v" \
+
+# Do not sort compile order
+nosort

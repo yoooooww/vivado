@@ -1,0 +1,10 @@
+0.7
+2020.2
+Dec 14 2023
+13:13:15
+C:/Users/lolwa/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/lolwa/project_3/project_3.srcs/sim_1/new/Error_Tolerant_adder_test_bench.v,1712788857,verilog,,,,Error_Tolerant_adder_test_bench,,,,,,,,
+C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/Carry_genertor.v,1705191784,verilog,,C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/Error_Tolerant_Adder.v,,carry_generator,,,,,,,,
+C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/Error_Tolerant_Adder.v,1711476715,verilog,,C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/Full_Adder.v,,Error_Tolerant_Adder,,,,,,,,
+C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/Full_Adder.v,1711476607,verilog,,C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/sum_generator.v,,Full_Adder,,,,,,,,
+C:/Users/lolwa/project_3/project_3.srcs/sources_1/new/sum_generator.v,1711478198,verilog,,C:/Users/lolwa/project_3/project_3.srcs/sim_1/new/Error_Tolerant_adder_test_bench.v,,sum_generator,,,,,,,,

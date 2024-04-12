@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Fri Apr 12 02:05:41 2024
+# Process ID: 27376
+# Current directory: C:/Users/lolwa/Low_part_or_adder 4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8372 C:\Users\lolwa\Low_part_or_adder 4\Low_part_or_adder 4.xpr
+# Log file: C:/Users/lolwa/Low_part_or_adder 4/vivado.log
+# Journal file: C:/Users/lolwa/Low_part_or_adder 4\vivado.jou
+# Running On: DESKTOP-MU57QG1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16791 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/lolwa/Low_part_or_adder 4/Low_part_or_adder 4.xpr}
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type functional
+launch_simulation
+launch_simulation -mode post-implementation -type functional
+source Low_part_or_adder_test_bench.tcl
+close_sim

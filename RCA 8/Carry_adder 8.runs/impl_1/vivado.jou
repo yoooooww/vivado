@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Wed Apr  3 19:30:46 2024
+# Process ID: 22876
+# Current directory: C:/Users/lolwa/Carry_adder 8/Carry_adder 8.runs/impl_1
+# Command line: vivado.exe -log Carry_Adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Carry_Adder.tcl -notrace
+# Log file: C:/Users/lolwa/Carry_adder 8/Carry_adder 8.runs/impl_1/Carry_Adder.vdi
+# Journal file: C:/Users/lolwa/Carry_adder 8/Carry_adder 8.runs/impl_1\vivado.jou
+# Running On: DESKTOP-MU57QG1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16791 MB
+#-----------------------------------------------------------
+source Carry_Adder.tcl -notrace

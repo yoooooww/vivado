@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Fri Apr  5 22:38:03 2024
+# Process ID: 32248
+# Current directory: C:/Users/lolwa/Error_Tolerant_Adder 16 2/Error_Tolerant_Adder 8 2.runs/impl_1
+# Command line: vivado.exe -log Error_Tolerant_Adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Error_Tolerant_Adder.tcl -notrace
+# Log file: C:/Users/lolwa/Error_Tolerant_Adder 16 2/Error_Tolerant_Adder 8 2.runs/impl_1/Error_Tolerant_Adder.vdi
+# Journal file: C:/Users/lolwa/Error_Tolerant_Adder 16 2/Error_Tolerant_Adder 8 2.runs/impl_1\vivado.jou
+# Running On: DESKTOP-MU57QG1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16791 MB
+#-----------------------------------------------------------
+source Error_Tolerant_Adder.tcl -notrace

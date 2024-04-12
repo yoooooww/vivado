@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Thu Apr 11 00:50:39 2024
+# Process ID: 39824
+# Current directory: C:/Users/lolwa/low part adder 8/low part adder 8.runs/synth_1
+# Command line: vivado.exe -log Low_part_OR_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Low_part_OR_Adder.tcl
+# Log file: C:/Users/lolwa/low part adder 8/low part adder 8.runs/synth_1/Low_part_OR_Adder.vds
+# Journal file: C:/Users/lolwa/low part adder 8/low part adder 8.runs/synth_1\vivado.jou
+# Running On: DESKTOP-MU57QG1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16791 MB
+#-----------------------------------------------------------
+source Low_part_OR_Adder.tcl -notrace
+Command: synth_design -top Low_part_OR_Adder -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 37900
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 934.664 ; gain = 446.695
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Low_part_OR_Adder' [C:/Users/lolwa/low part adder 8/low part adder 8.srcs/sources_1/new/Low_part_OR_Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Full_Adder' [C:/Users/lolwa/low part adder 8/low part adder 8.srcs/sources_1/new/Full_Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Full_Adder' (0#1) [C:/Users/lolwa/low part adder 8/low part adder 8.srcs/sources_1/new/Full_Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Low_part_OR_Adder' (0#1) [C:/Users/lolwa/low part adder 8/low part adder 8.srcs/sources_1/new/Low_part_OR_Adder.v:23]
+WARNING: [Synth 8-7129] Port C_in in module Low_part_OR_Adder is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1040.016 ; gain = 552.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1040.016 ; gain = 552.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1040.016 ; gain = 552.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1040.016 ; gain = 552.047
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      7 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port C_in in module Low_part_OR_Adder is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1222.742 ; gain = 734.773
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     7|
+|2     |LUT4 |     2|
+|3     |IBUF |    16|
+|4     |OBUF |     9|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------------+-----------+------+
+|      |Instance         |Module     |Cells |
++------+-----------------+-----------+------+
+|1     |top              |           |    34|
+|2     |  nolabel_line31 |Full_Adder |     1|
++------+-----------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.660 ; gain = 735.691
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1236.723 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1331.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 491e7546
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 1331.930 ; gain = 846.969
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1331.930 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lolwa/low part adder 8/low part adder 8.runs/synth_1/Low_part_OR_Adder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Low_part_OR_Adder_utilization_synth.rpt -pb Low_part_OR_Adder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 11 00:51:06 2024...

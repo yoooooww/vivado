@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Wed Apr  3 19:49:13 2024
+# Process ID: 20852
+# Current directory: C:/Users/lolwa/Low_part_or_adder 4/Low_part_or_adder 4.runs/synth_1
+# Command line: vivado.exe -log Low_part_or_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Low_part_or_adder.tcl
+# Log file: C:/Users/lolwa/Low_part_or_adder 4/Low_part_or_adder 4.runs/synth_1/Low_part_or_adder.vds
+# Journal file: C:/Users/lolwa/Low_part_or_adder 4/Low_part_or_adder 4.runs/synth_1\vivado.jou
+# Running On: DESKTOP-MU57QG1, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16791 MB
+#-----------------------------------------------------------
+source Low_part_or_adder.tcl -notrace
